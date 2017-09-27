@@ -1,5 +1,5 @@
 import unittest
-from src.math import Math
+from repo.src.math import Math
 
 class MathTest(unittest.TestCase):
 	def test_addition(self):
