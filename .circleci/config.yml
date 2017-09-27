@@ -42,4 +42,4 @@ jobs:
 
 test:
   override:
-    - nosetests tests/math-test1.py
+    - nosetests tests/math-test.py
