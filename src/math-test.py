@@ -13,4 +13,4 @@ class MathTest(unittest.TestCase):
 		self.assertEqual(Math.addition(3, 1), 4)
 	def test_addition2(self):
 	# Make test fail
-		self.assertEqual(Math.addition(3, 3), 6)
+		self.assertEqual(Math.addition(3, 3), 61)
