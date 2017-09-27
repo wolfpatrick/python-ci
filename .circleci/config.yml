@@ -35,6 +35,13 @@ jobs:
             pip install -r requirements.txt
 
       - run:
+          name: install nose
+          command: |
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install nose
+
+      - run:
           name: run patricks test
           command: |
             python3 -m venv venv
