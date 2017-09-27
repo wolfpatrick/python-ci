@@ -46,7 +46,7 @@ jobs:
           command: |
             python3 -m venv venv
             . venv/bin/activate
-            nosetests tests/math-test.py
+            nosetests test/math-test.py
 
       - save_cache:
           paths:
