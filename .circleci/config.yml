@@ -40,6 +40,6 @@ jobs:
           key: v1-dependencies-{{ checksum "requirements.txt" }}
         
 
-test:
-  override:
-    - nosetests tests/math-test.py
+  test:
+    override:
+      - nosetests tests/math-test.py
